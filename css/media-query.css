@@ -1,0 +1,455 @@
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 300px) {
+
+    #greeting {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    #sun {
+        z-index: 1000;
+        position: absolute;
+        top: -50px;
+        left: -50px;
+        width: 45%;
+        height: auto;
+        -webkit-animation: spin 10s linear infinite;
+        -moz-animation: spin 10s linear infinite;
+        animation: spin 10s linear infinite;
+    }
+
+    #cloud-1{
+        position: absolute;
+        top: 0px;
+        width: 50%;
+        height: auto;
+    }
+
+    #branch{
+        width: 40%;
+        height: auto;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+
+    @keyframes fly {
+        0% {
+            left: 100%;
+            top: 250px;
+        }
+        15% {
+            top: 300px;
+        }
+        25% {
+            top: 350px;
+        }
+        50% {
+            top: 400px;
+        }
+        75% {
+            top: 400px;
+        }
+        100% {
+            left: -177px;
+            top: 400px;
+        }
+    }
+
+    @-moz-keyframes fly {
+        0% {
+            left: 100%;
+            top: 250px;
+        }
+        15% {
+            top: 300px;
+        }
+        25% {
+            top: 350px;
+        }
+        50% {
+            top: 400px;
+        }
+        75% {
+            top: 400px;
+        }
+        100% {
+            left: -177px;
+            top: 400px;
+        }
+    }
+
+    @-webkit-keyframes fly {
+        0% {
+            left: 100%;
+            top: 250px;
+        }
+        15% {
+            top: 300px;
+        }
+        25% {
+            top: 350px;
+        }
+        50% {
+            top: 400px;
+        }
+        75% {
+            top: 400px;
+        }
+        100% {
+            left: -177px;
+            top: 400px;
+        }
+    }
+
+    @-ms-keyframes fly {
+        0% {
+            left: 100%;
+            top: 250px;
+        }
+        15% {
+            top: 300px;
+        }
+        25% {
+            top: 350px;
+        }
+        50% {
+            top: 400px;
+        }
+        75% {
+            top: 400px;
+        }
+        100% {
+            left: -177px;
+            top: 400px;
+        }
+    }
+
+    @-o-keyframes fly {
+        0% {
+            left: 100%;
+            top: 250px;
+        }
+        15% {
+            top: 300px;
+        }
+        25% {
+            top: 350px;
+        }
+        50% {
+            top: 400px;
+        }
+        75% {
+            top: 400px;
+        }
+        100% {
+            left: -177px;
+            top: 400px;
+        }
+    }
+
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) {
+    
+    #sun {
+        z-index: 1000;
+        position: absolute;
+        top: -150px;
+        left: -150px;
+        width: 45%;
+        height: auto;
+        -webkit-animation: spin 10s linear infinite;
+        -moz-animation: spin 10s linear infinite;
+        animation: spin 10s linear infinite;
+    }
+
+    #cloud-1{
+        position: absolute;
+        top: 0px;
+        width: 50%;
+        height: auto;
+    }
+
+    #branch{
+        width: 40%;
+        height: auto;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+
+    @keyframes fly {
+        0% {
+            left: 100%;
+            top: 250px;
+        }
+        15% {
+            top: 300px;
+        }
+        25% {
+            top: 350px;
+        }
+        50% {
+            top: 400px;
+        }
+        75% {
+            top: 400px;
+        }
+        100% {
+            left: -177px;
+            top: 400px;
+        }
+    }
+
+    @-ms-keyframes fly {
+        0% {
+            left: 100%;
+            top: 250px;
+        }
+        15% {
+            top: 300px;
+        }
+        25% {
+            top: 350px;
+        }
+        50% {
+            top: 400px;
+        }
+        75% {
+            top: 400px;
+        }
+        100% {
+            left: -177px;
+            top: 400px;
+        }
+    }
+
+    @-webkit-keyframes fly {
+        0% {
+            left: 100%;
+            top: 250px;
+        }
+        15% {
+            top: 300px;
+        }
+        25% {
+            top: 350px;
+        }
+        50% {
+            top: 400px;
+        }
+        75% {
+            top: 400px;
+        }
+        100% {
+            left: -177px;
+            top: 400px;
+        }
+    }
+
+    @-ms-keyframes fly {
+        0% {
+            left: 100%;
+            top: 250px;
+        }
+        15% {
+            top: 300px;
+        }
+        25% {
+            top: 350px;
+        }
+        50% {
+            top: 400px;
+        }
+        75% {
+            top: 400px;
+        }
+        100% {
+            left: -177px;
+            top: 400px;
+        }
+    }
+
+    @-o-keyframes fly {
+        0% {
+            left: 100%;
+            top: 250px;
+        }
+        15% {
+            top: 300px;
+        }
+        25% {
+            top: 350px;
+        }
+        50% {
+            top: 400px;
+        }
+        75% {
+            top: 400px;
+        }
+        100% {
+            left: -177px;
+            top: 400px;
+        }
+    }
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) {
+    #greeting {
+        text-align: center;
+        font-size: 24px;
+    }
+
+    #sun {
+        z-index: 1000;
+        position: absolute;
+        top: -100px;
+        left: -100px;
+        width: 45%;
+        height: auto;
+        -webkit-animation: spin 10s linear infinite;
+        -moz-animation: spin 10s linear infinite;
+        animation: spin 10s linear infinite;
+    }
+
+    @keyframes fly {
+        0% {
+            left: 100%;
+            top: 80px;
+        }
+        15% {
+            top: 100px;
+        }
+        25% {
+            top: 150px;
+        }
+        50% {
+            top: 200px;
+        }
+        75% {
+            top: 200px;
+        }
+        100% {
+            left: -177px;
+            top: 150px;
+        }
+    }
+
+    @-moz-keyframes fly {
+        0% {
+            left: 100%;
+            top: 80px;
+        }
+        15% {
+            top: 100px;
+        }
+        25% {
+            top: 150px;
+        }
+        50% {
+            top: 200px;
+        }
+        75% {
+            top: 200px;
+        }
+        100% {
+            left: -177px;
+            top: 150px;
+        }
+    }
+
+    @-webkit-keyframes fly {
+        0% {
+            left: 100%;
+            top: 80px;
+        }
+        15% {
+            top: 100px;
+        }
+        25% {
+            top: 150px;
+        }
+        50% {
+            top: 200px;
+        }
+        75% {
+            top: 200px;
+        }
+        100% {
+            left: -177px;
+            top: 150px;
+        }
+    }
+
+    @-ms-keyframes fly {
+        0% {
+            left: 100%;
+            top: 80px;
+        }
+        15% {
+            top: 100px;
+        }
+        25% {
+            top: 150px;
+        }
+        50% {
+            top: 200px;
+        }
+        75% {
+            top: 200px;
+        }
+        100% {
+            left: -177px;
+            top: 150px;
+        }
+    }
+
+    @-o-keyframes fly {
+        0% {
+            left: 100%;
+            top: 80px;
+        }
+        15% {
+            top: 100px;
+        }
+        25% {
+            top: 150px;
+        }
+        50% {
+            top: 200px;
+        }
+        75% {
+            top: 200px;
+        }
+        100% {
+            left: -177px;
+            top: 150px;
+        }
+    }
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 1024px) {
+    #sun {
+        z-index: 1000;
+        position: absolute;
+        top: -200px;
+        left: -200px;
+        width: 45%;
+        height: auto;
+        -webkit-animation: spin 10s linear infinite;
+        -moz-animation: spin 10s linear infinite;
+        animation: spin 10s linear infinite;
+    }
+
+    #cloud-1{
+        position: absolute;
+        top: 0px;
+        width: 40%;
+        height: auto;
+    }
+} 

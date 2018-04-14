@@ -11,26 +11,6 @@ p {
     position: -50%;
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-footer div {
-    padding: 0;
-    margin: 0;
-    /* width: 100%; */
-    height: 400px;
-    background-image: url(/img/grass.png);
-    background-position: left bottom;
-    background-size: 30% 100%;
-    background-repeat: repeat-x;
-    background-blend-mode: color-burn;
-}
-
 #top-content {
     text-align: center;
 }
@@ -54,7 +34,6 @@ footer div {
 #cloud-1{
     position: absolute;
     top: -100px;
-
 }
 
 #branch{
