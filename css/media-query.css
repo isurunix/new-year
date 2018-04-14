@@ -458,4 +458,26 @@
         width: 40%;
         height: auto;
     }
+
+    @keyframes fly {
+        0% {
+            left: 100%;
+            top: 250px;
+        }
+        15% {
+            top: 400px;
+        }
+        25% {
+            top: 450px;
+        }
+        50% {
+            top: 500px;
+        }
+        75% {
+            top: 500px;
+        }
+        100% {
+            left: -177px;
+            top: 400px;
+        }
 } 
