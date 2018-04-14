@@ -434,12 +434,18 @@
 
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 1024px) {
+
+    #greeting {
+        text-align: center;
+        font-size: 36px;
+    }
+
     #sun {
         z-index: 1000;
         position: absolute;
         top: -200px;
         left: -200px;
-        width: 45%;
+        width: 40%;
         height: auto;
         -webkit-animation: spin 10s linear infinite;
         -moz-animation: spin 10s linear infinite;
